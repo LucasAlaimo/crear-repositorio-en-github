@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://img.icons8.com/cotton/64/000000/piano.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/32da68561d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__img">
+            <a href="index.html"> <img src="./img/logo1.jpg" alt="logo" title="Logo" > </a>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li class="nav3"><a href="index.html">Inicio</a></li>
+                <li class="nav1"><a href="galeria.html">Galeria</a></li>
+                <li class="nav2"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="main__contacto">
+        <div class="main__contacto__titulo">
+         <h1>Contacto</h1>
+        </div>
+             <form class="formulario">
+                 <fieldset class="formulario__items">
+                     <legend class="titulo">Envianos tu consulta</legend>
+                     <label class="dato" for="nombre">Nombre y apellido</label>
+                     <input class="dato" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre y apellido" required>
+                     
+                     <label class="dato" for="email">Email</label>
+                     <input  class="dato" type="email" name="email" id="email" placeholder="Ingresa tu correo" required>
+                     
+                     <label class="dato" for="telefono">Telefono</label>
+                     <input  class="dato" type="text" name="telefono" id="telefono" placeholder="ej:1121314151">
+                   
+                     <label class="dato" for="consulta">Consulta/Comentarios</label>
+                     <div class="consultas">
+                     <textarea class="dato" name="mensaje" id="mensaje" cols="30" rows="10"  placeholder="Ingrese su mensaje"></textarea>
+                     </div>
+                     <div class="contenedor__boton">
+                     <input class="boton" type="submit" value="Enviar consulta">
+                     </div>
+                 </fieldset>
+             </form>
+             
+     </main>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <h4>Seguinos en redes</h4>
+            <div class="footer__redes">
+                <ul>
+                    <li ><a href="https://soundcloud.com/"><i class="fab fa-soundcloud"></i></a></li>
+                    <li ><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></li>
+                    <li ><a href="https://facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+                    <li ><a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a></li>
+                </ul>
+            </div>
+    </footer>
+</body>
+
+</html>
